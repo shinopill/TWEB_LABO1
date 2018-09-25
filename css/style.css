@@ -1,0 +1,144 @@
+
+body{
+    background-color: plum
+}
+.main{
+    background-color: white;
+    font-display: left;
+
+    width: 450;
+    height: 160;
+
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 2%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.p{
+ 
+}
+
+.user{
+    font-family: Helvetica;
+    width:calc(100%);
+    display: flex;
+}
+.user_photo{
+    padding-top: 10px;
+    padding-left: 10px;
+   display: flex;
+   width:calc(25%);
+}
+
+.user_description{
+    margin-top:10px;
+    margin-right: 50px;
+    display:flex;
+    flex-direction: column;
+    width:calc(75%);
+    padding-left: 10px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.social{
+    display: flex;
+
+}
+.user_social{
+    display: flex;
+    width:calc(75%)
+
+}
+
+.followed_button{
+    border-radius: 30%;
+    padding-left: 10px;
+    padding-top: 10px;
+    flex-direction: row;
+    width: calc(21%);   
+    align-content: center;
+}
+
+.button{
+    border-radius: 10;
+    align-content: center
+}
+
+.user_social_objet{
+    display: flex;
+    flex-direction: column;
+}
+
+.user_social_number{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding-left:10;
+    padding-top: 10;
+}
+
+.user_social_text{
+    font-size:14px;
+    text-align: left;
+    margin:0;
+    padding-left:10;
+    padding-right:70;
+}
+
+#followed_button_1{
+    background-color: #02CD10;
+    color:white;
+    font-size: 16px;
+    font-display: center;
+    border:0;
+    border-radius: 5%;
+    width:calc(100%);
+    height: calc(100%);
+}
+
+#unfollowed_button{
+    
+    background-color: red;
+    color : white;
+    font-size: 16px;
+    font-display: center;
+    border:0;
+    border-radius: 5%;
+    width:calc(100%);
+    height: calc(100%);
+}
+
+#photo_1{
+    border-radius: 5%;
+    width:calc(100%)
+}
+
+
+#Titre{
+    font-size: 20;
+    margin:0;
+    padding-bottom:7;
+    padding-top:10;
+}
+
+#Sous_titre{
+    font-size: 14;
+    margin:0;
+    padding: top 5px bottom 5px;
+}
+
+#Text{
+    font-size: 12;
+    margin: 0;
+    padding-top:7;
+    color:grey
+}
+
